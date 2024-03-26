@@ -13,6 +13,8 @@ VALUES (54552, 'felipe', '2001-03-11', 'sorocaba', 'felipe@gmail.com'),
        (66895, 'daniel', '2000-04-12', 'araçoiaba da serra', 'daniel@gmail.com'),
        (25554, 'vitor', '2003-09-07', 'itu', 'vitor@gmail.com'),
        (68958, 'joao', '2005-05-08', 'araçariguama', 'joao@gmail.com');
+       (16466, 'ruan', '2003-12-10', 'pidamonhangaba', 'ruan@gmail.com');
+       (61555, 'salatiel', '2000-10-08', 'osasco', 'salatiel@gmail.com');
 
 SELECT * FROM alunos;
 
@@ -32,5 +34,7 @@ VALUES (62166, 'tiago', '65226526255', 'assistente', 1000.00),
        (95999, 'andre', '98492949899', 'gerente', 5000.00),
        (12351, 'pedro', '89829448848', 'assistente', 7500.00),
        (32625, 'felipe', '89292928199', 'tecnico', 9800.00);
+       (16466, 'ruan', '65166516561', 'tecnico', '3000.00');
+       (61555, 'salatiel', '61565168581', 'analista', '1000.00');
 
 SELECT * FROM colaboradores
