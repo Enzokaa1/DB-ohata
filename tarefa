@@ -1,0 +1,36 @@
+1=
+CREATE TABLE alunos (
+  id_aluno INT AUTO_INCREMENT PRIMARY KEY,
+  ra INT UNIQUE,
+  nome VARCHAR(255),
+  data_nascimento DATE,
+  cidade VARCHAR(255),
+  email VARCHAR(255)
+);
+
+INSERT INTO alunos (ra, nome, data_nascimento, cidade, email)
+VALUES (54552, 'felipe', '2001-03-11', 'sorocaba', 'felipe@gmail.com'),
+       (66895, 'daniel', '2000-04-12', 'araçoiaba da serra', 'daniel@gmail.com'),
+       (25554, 'vitor', '2003-09-07', 'itu', 'vitor@gmail.com'),
+       (68958, 'joao', '2005-05-08', 'araçariguama', 'joao@gmail.com');
+
+SELECT * FROM alunos;
+
+
+2=
+CREATE TABLE colaboradores (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  codigo INT UNIQUE,
+  nome VARCHAR(255),
+  cpf VARCHAR(11),
+  cargo VARCHAR(255),
+  salario DECIMAL(10,2)
+);
+
+INSERT INTO colaboradores (codigo, nome, cpf, cargo, salario)
+VALUES (62166, 'tiago', '65226526255', 'assistente', 1000.00),
+       (95999, 'andre', '98492949899', 'gerente', 5000.00),
+       (12351, 'pedro', '89829448848', 'assistente', 7500.00),
+       (32625, 'felipe', '89292928199', 'tecnico', 9800.00);
+
+SELECT * FROM colaboradores
